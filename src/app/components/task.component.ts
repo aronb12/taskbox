@@ -45,7 +45,7 @@ export class TaskComponent {
    * Component method to trigger the onPin event
    * @param id string
    */
-  onPin(id: any) {
+  onPin(id: any): void {
     this.onPinTask.emit(id);
   }
 
@@ -53,7 +53,7 @@ export class TaskComponent {
    * Component method to trigger the onArchive event
    * @param id string
    */
-  onArchive(id: any) {
+  onArchive(id: any): void {
     this.onArchiveTask.emit(id);
   }
 }
