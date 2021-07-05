@@ -120,5 +120,8 @@
       "node",
       ".html"
     ]
+  },
+  "storybook": {
+    "url": "https://60df0940a562af0039d627ea-bmbihdppym.chromatic.com"
   }
 }
