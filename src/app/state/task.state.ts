@@ -32,7 +32,7 @@ const defaultTasks = {
   1: { id: '1', title: 'Something', state: 'TASK_INBOX' },
   2: { id: '2', title: 'Something more', state: 'TASK_INBOX' },
   3: { id: '3', title: 'Something else', state: 'TASK_INBOX' },
-  4: { id: '4', title: 'Something again', state: 'TASK_INBOX' },
+  4: { id: '4', title: 'Something else again', state: 'TASK_INBOX' },
 };
 
 export class TaskStateModel {
