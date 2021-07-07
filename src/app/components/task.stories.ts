@@ -46,10 +46,10 @@ Pinned.args = {
   },
 };
 
-// export const Archived = Template.bind({});
-// Archived.args = {
-//   task: {
-//     ...Default.args.task,
-//     state: 'TASK_ARCHIVED',
-//   },
-// };
+export const Archived = Template.bind({});
+Archived.args = {
+  task: {
+    ...Default.args.task,
+    state: 'TASK_ARCHIVED',
+  },
+};
